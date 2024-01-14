@@ -19,6 +19,6 @@ app.get('/videos', function (req, res) {
     });
 });
 
-app.listen(3000, '0.0.0.0', function () {
+app.listen(3001, '0.0.0.0', function () {
     console.log('Video server listening on port 3000!');
 });
